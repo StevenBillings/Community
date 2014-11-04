@@ -10,11 +10,13 @@ import UIKit
 
 class ViewController: UIViewController {
 
-    @IBOutlet weak var signInButton: UIButton!
-    
+   
+
     @IBOutlet weak var View1: UIView!
-    @IBOutlet weak var Password: UIButton!
-    @IBOutlet weak var SignIn: UIButton!
+    @IBOutlet weak var SigninBttn: UIButton!
+    @IBOutlet weak var PasswordBttn: UITextField!
+    @IBOutlet weak var EmailBttn: UITextField!
+   
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -22,6 +24,13 @@ class ViewController: UIViewController {
 //        SignIn.layer.cornerRadius = 7.0
 //        Password.layer.cornerRadius = 7.0
 //        View1.layer.cornerRadius = 7.0
+        EmailBttn.layer.cornerRadius = 7.0
+        PasswordBttn.layer.cornerRadius = 7.0
+        SigninBttn.layer.cornerRadius = 7.0
+        View1.layer.cornerRadius = 7.0
+        
+        
+        
     }
 
     override func didReceiveMemoryWarning() {
