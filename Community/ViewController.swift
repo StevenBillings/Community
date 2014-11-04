@@ -18,10 +18,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-        signInButton.layer.cornerRadius = 7.0
-        SignIn.layer.cornerRadius = 7.0
-        Password.layer.cornerRadius = 7.0
-        View1.layer.cornerRadius = 7.0
+//        signInButton.layer.cornerRadius = 7.0
+//        SignIn.layer.cornerRadius = 7.0
+//        Password.layer.cornerRadius = 7.0
+//        View1.layer.cornerRadius = 7.0
     }
 
     override func didReceiveMemoryWarning() {

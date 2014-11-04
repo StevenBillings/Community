@@ -20,21 +20,55 @@
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="BcZ-92-XV8">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                             </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="email" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9VR-rc-SpJ">
-                                <rect key="frame" x="31" y="451" width="313" height="30"/>
+                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nuP-So-yz9">
+                                <rect key="frame" x="25" y="378" width="326" height="155"/>
+                                <color key="backgroundColor" white="1" alpha="0.45000000000000001" colorSpace="calibratedWhite"/>
+                            </view>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email Address" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9VR-rc-SpJ">
+                                <rect key="frame" x="31" y="387" width="313" height="40"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.90000000000000002" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="rpf-tC-SFr"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                <textInputTraits key="textInputTraits"/>
+                                <textInputTraits key="textInputTraits" enablesReturnKeyAutomatically="YES"/>
                             </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Password" textAlignment="center" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="RzZ-kr-g7M">
+                                <rect key="frame" x="31" y="435" width="313" height="40"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="0.80000000000000004" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="g5h-dZ-jJo"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" secureTextEntry="YES"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sJP-By-mVz">
+                                <rect key="frame" x="31" y="483" width="313" height="40"/>
+                                <color key="backgroundColor" red="0.41176470588235292" green="0.53333333333333333" blue="0.35686274509803922" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="oen-ma-TpP"/>
+                                </constraints>
+                                <state key="normal" title="Sign In">
+                                    <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="BcZ-92-XV8" firstAttribute="top" secondItem="jyV-Pf-zRb" secondAttribute="bottom" constant="-20" id="0ig-3m-gM7"/>
+                            <constraint firstItem="RzZ-kr-g7M" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="15" id="9FE-Rb-yx7"/>
+                            <constraint firstItem="RzZ-kr-g7M" firstAttribute="top" secondItem="9VR-rc-SpJ" secondAttribute="bottom" constant="8" id="9jb-ru-gtB"/>
                             <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="BcZ-92-XV8" secondAttribute="bottom" id="DQf-Gc-9tQ"/>
-                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="9VR-rc-SpJ" secondAttribute="bottom" constant="186" id="F23-mp-zIc"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="9VR-rc-SpJ" secondAttribute="bottom" constant="240" id="F23-mp-zIc"/>
                             <constraint firstItem="BcZ-92-XV8" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="-16" id="Iov-hD-O7M"/>
                             <constraint firstAttribute="trailingMargin" secondItem="BcZ-92-XV8" secondAttribute="trailing" constant="-16" id="RYg-eJ-09p"/>
+                            <constraint firstItem="sJP-By-mVz" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="15" id="UMu-HE-lmG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="9VR-rc-SpJ" secondAttribute="trailing" constant="15" id="bD6-Rk-ZtF"/>
                             <constraint firstItem="9VR-rc-SpJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="15" id="cMV-eg-0Gs"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="RzZ-kr-g7M" secondAttribute="trailing" constant="15" id="pg2-lh-30V"/>
+                            <constraint firstItem="sJP-By-mVz" firstAttribute="top" secondItem="RzZ-kr-g7M" secondAttribute="bottom" constant="8" id="tZu-o4-V1C"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sJP-By-mVz" secondAttribute="trailing" constant="15" id="whi-Df-4iK"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -42,6 +76,23 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="603.5" y="473.5"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YVy-og-uaz">
+            <objects>
+                <viewController id="HBX-o4-itP" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NEr-aT-RbA"/>
+                        <viewControllerLayoutGuide type="bottom" id="j6b-lU-BAY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="SX5-8l-jpU">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="reB-dL-N6s" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
         </scene>
     </scenes>
     <resources>
