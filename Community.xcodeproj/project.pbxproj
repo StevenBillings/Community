@@ -13,6 +13,7 @@
 		3F5CF8F019ECE02600AF417B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F5CF8EF19ECE02600AF417B /* Images.xcassets */; };
 		3F5CF8F319ECE02600AF417B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F5CF8F119ECE02600AF417B /* LaunchScreen.xib */; };
 		3F5CF8FF19ECE02600AF417B /* CommunityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CF8FE19ECE02600AF417B /* CommunityTests.swift */; };
+		3F5CF90919ECE4B500AF417B /* ElegantLux-Mager.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F5CF90819ECE4B500AF417B /* ElegantLux-Mager.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +37,7 @@
 		3F5CF8F819ECE02600AF417B /* CommunityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CommunityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3F5CF8FD19ECE02600AF417B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F5CF8FE19ECE02600AF417B /* CommunityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTests.swift; sourceTree = "<group>"; };
+		3F5CF90819ECE4B500AF417B /* ElegantLux-Mager.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ElegantLux-Mager.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		3F5CF8E519ECE02600AF417B /* Community */ = {
 			isa = PBXGroup;
 			children = (
+				3F5CF90A19ECE55100AF417B /* Fonts */,
 				3F5CF8E819ECE02600AF417B /* AppDelegate.swift */,
 				3F5CF8EA19ECE02600AF417B /* ViewController.swift */,
 				3F5CF8EC19ECE02600AF417B /* Main.storyboard */,
@@ -110,6 +113,14 @@
 				3F5CF8FD19ECE02600AF417B /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3F5CF90A19ECE55100AF417B /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3F5CF90819ECE4B500AF417B /* ElegantLux-Mager.otf */,
+			);
+			name = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +204,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F5CF8EE19ECE02600AF417B /* Main.storyboard in Resources */,
+				3F5CF90919ECE4B500AF417B /* ElegantLux-Mager.otf in Resources */,
 				3F5CF8F319ECE02600AF417B /* LaunchScreen.xib in Resources */,
 				3F5CF8F019ECE02600AF417B /* Images.xcassets in Resources */,
 			);
