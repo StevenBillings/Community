@@ -15,6 +15,10 @@
 		3F5CF8FF19ECE02600AF417B /* CommunityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CF8FE19ECE02600AF417B /* CommunityTests.swift */; };
 		3F5CF90919ECE4B500AF417B /* ElegantLux-Mager.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F5CF90819ECE4B500AF417B /* ElegantLux-Mager.otf */; };
 		3F933D671A0D606600D5EE01 /* GrandHotel-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F933D661A0D606600D5EE01 /* GrandHotel-Regular.otf */; };
+		3F933D691A0D6B8500D5EE01 /* Circle.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F933D681A0D6B8500D5EE01 /* Circle.png */; };
+		3F933D6B1A0D6C8200D5EE01 /* Oval 90.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F933D6A1A0D6C8200D5EE01 /* Oval 90.png */; };
+		3F933D6D1A0D6D9400D5EE01 /* Oval 91.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F933D6C1A0D6D9400D5EE01 /* Oval 91.png */; };
+		3F933D6F1A0D6DE200D5EE01 /* Oval 92.png in Resources */ = {isa = PBXBuildFile; fileRef = 3F933D6E1A0D6DE200D5EE01 /* Oval 92.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -40,6 +44,10 @@
 		3F5CF8FE19ECE02600AF417B /* CommunityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTests.swift; sourceTree = "<group>"; };
 		3F5CF90819ECE4B500AF417B /* ElegantLux-Mager.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ElegantLux-Mager.otf"; sourceTree = "<group>"; };
 		3F933D661A0D606600D5EE01 /* GrandHotel-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GrandHotel-Regular.otf"; sourceTree = "<group>"; };
+		3F933D681A0D6B8500D5EE01 /* Circle.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Circle.png; sourceTree = "<group>"; };
+		3F933D6A1A0D6C8200D5EE01 /* Oval 90.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 90.png"; sourceTree = "<group>"; };
+		3F933D6C1A0D6D9400D5EE01 /* Oval 91.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 91.png"; sourceTree = "<group>"; };
+		3F933D6E1A0D6DE200D5EE01 /* Oval 92.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Oval 92.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,7 +93,11 @@
 				3F5CF8E819ECE02600AF417B /* AppDelegate.swift */,
 				3F5CF8EA19ECE02600AF417B /* ViewController.swift */,
 				3F5CF8EC19ECE02600AF417B /* Main.storyboard */,
+				3F933D6C1A0D6D9400D5EE01 /* Oval 91.png */,
 				3F5CF8EF19ECE02600AF417B /* Images.xcassets */,
+				3F933D6E1A0D6DE200D5EE01 /* Oval 92.png */,
+				3F933D6A1A0D6C8200D5EE01 /* Oval 90.png */,
+				3F933D681A0D6B8500D5EE01 /* Circle.png */,
 				3F5CF8F119ECE02600AF417B /* LaunchScreen.xib */,
 				3F5CF8E619ECE02600AF417B /* Supporting Files */,
 			);
@@ -207,7 +219,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				3F5CF8EE19ECE02600AF417B /* Main.storyboard in Resources */,
+				3F933D6B1A0D6C8200D5EE01 /* Oval 90.png in Resources */,
+				3F933D6D1A0D6D9400D5EE01 /* Oval 91.png in Resources */,
+				3F933D691A0D6B8500D5EE01 /* Circle.png in Resources */,
 				3F5CF90919ECE4B500AF417B /* ElegantLux-Mager.otf in Resources */,
+				3F933D6F1A0D6DE200D5EE01 /* Oval 92.png in Resources */,
 				3F5CF8F319ECE02600AF417B /* LaunchScreen.xib in Resources */,
 				3F5CF8F019ECE02600AF417B /* Images.xcassets in Resources */,
 				3F933D671A0D606600D5EE01 /* GrandHotel-Regular.otf in Resources */,

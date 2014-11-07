@@ -2,6 +2,7 @@
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="14A389" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vXZ-lx-hvc">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
+        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <customFonts key="customFonts">
@@ -33,7 +34,7 @@
                             </imageView>
                             <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nuP-So-yz9">
                                 <rect key="frame" x="25" y="378" width="326" height="155"/>
-                                <color key="backgroundColor" white="1" alpha="0.45000000000000001" colorSpace="calibratedWhite"/>
+                                <color key="backgroundColor" white="1" alpha="0.54000000000000004" colorSpace="calibratedWhite"/>
                             </view>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Enter Email" textAlignment="center" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="9VR-rc-SpJ">
                                 <rect key="frame" x="31" y="387" width="313" height="40"/>
@@ -65,7 +66,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QHz-BE-Y5x">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QHz-BE-Y5x">
                                 <rect key="frame" x="128" y="560" width="121" height="30"/>
                                 <color key="backgroundColor" white="1" alpha="0.70000000000000007" colorSpace="custom" customColorSpace="calibratedWhite"/>
                                 <constraints>
@@ -77,15 +78,20 @@
                                     <color key="titleShadowColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Community" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfB-Rv-a96">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Community" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="rfB-Rv-a96">
                                 <rect key="frame" x="87" y="28" width="202" height="79"/>
                                 <constraints>
+                                    <constraint firstAttribute="width" secondItem="rfB-Rv-a96" secondAttribute="height" multiplier="202:79" id="dZg-Xz-hUd"/>
                                     <constraint firstAttribute="height" constant="79" id="duS-gb-7Ik"/>
+                                    <constraint firstAttribute="width" secondItem="rfB-Rv-a96" secondAttribute="height" multiplier="202:79" id="yf5-zd-O0x"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="GrandHotel-Regular" family="Grand Hotel" pointSize="58"/>
                                 <color key="textColor" red="0.30588235294117649" green="0.30588235294117649" blue="0.30196078431372547" alpha="1" colorSpace="calibratedRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Oval 92.png" translatesAutoresizingMaskIntoConstraints="NO" id="x3H-ZZ-FjF">
+                                <rect key="frame" x="240" y="46" width="12" height="12"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
@@ -98,6 +104,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="BcZ-92-XV8" secondAttribute="trailing" constant="-16" id="RYg-eJ-09p"/>
                             <constraint firstItem="sJP-By-mVz" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="15" id="UMu-HE-lmG"/>
                             <constraint firstAttribute="trailingMargin" secondItem="QHz-BE-Y5x" secondAttribute="trailing" constant="110" id="XWR-7H-tjJ"/>
+                            <constraint firstItem="BcZ-92-XV8" firstAttribute="top" secondItem="rfB-Rv-a96" secondAttribute="bottom" constant="-107" id="YS6-zN-s7n"/>
                             <constraint firstAttribute="trailingMargin" secondItem="9VR-rc-SpJ" secondAttribute="trailing" constant="15" id="bD6-Rk-ZtF"/>
                             <constraint firstItem="QHz-BE-Y5x" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="112" id="buJ-7n-0Ge"/>
                             <constraint firstItem="9VR-rc-SpJ" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="15" id="cMV-eg-0Gs"/>
@@ -107,6 +114,7 @@
                             <constraint firstAttribute="trailingMargin" secondItem="rfB-Rv-a96" secondAttribute="trailing" constant="70" id="tkp-8F-Lma"/>
                             <constraint firstItem="rfB-Rv-a96" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="71" id="vNR-Ji-euV"/>
                             <constraint firstAttribute="trailingMargin" secondItem="sJP-By-mVz" secondAttribute="trailing" constant="15" id="whi-Df-4iK"/>
+                            <constraint firstItem="QHz-BE-Y5x" firstAttribute="top" secondItem="sJP-By-mVz" secondAttribute="bottom" constant="37" id="xMU-Sh-x5P"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
@@ -144,5 +152,6 @@
     </scenes>
     <resources>
         <image name="Background" width="640" height="1136"/>
+        <image name="Oval 92.png" width="26" height="25"/>
     </resources>
 </document>

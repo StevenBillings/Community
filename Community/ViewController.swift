@@ -1,7 +1,6 @@
 //
 //  ViewController.swift
-//  Community/Users/cartersmith/Downloads/grand-hotel/GrandHotel-Regular.otf
-//
+//  Community
 //  Created by Carter Smith on 10/13/14.
 //  Copyright (c) 2014 Carter Smith. All rights reserved.
 //
