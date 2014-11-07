@@ -1,6 +1,6 @@
 //
 //  ViewController.swift
-//  Community
+//  Community/Users/cartersmith/Downloads/grand-hotel/GrandHotel-Regular.otf
 //
 //  Created by Carter Smith on 10/13/14.
 //  Copyright (c) 2014 Carter Smith. All rights reserved.
@@ -17,6 +17,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var PasswordBttn: UITextField!
     @IBOutlet weak var EmailBttn: UITextField!
    
+    @IBOutlet weak var CreateAccountBttn: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
@@ -28,6 +29,7 @@ class ViewController: UIViewController {
         PasswordBttn.layer.cornerRadius = 7.0
         SigninBttn.layer.cornerRadius = 7.0
         View1.layer.cornerRadius = 7.0
+        CreateAccountBttn.layer.cornerRadius = 7.0
         
         
         

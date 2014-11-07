@@ -14,6 +14,7 @@
 		3F5CF8F319ECE02600AF417B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3F5CF8F119ECE02600AF417B /* LaunchScreen.xib */; };
 		3F5CF8FF19ECE02600AF417B /* CommunityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F5CF8FE19ECE02600AF417B /* CommunityTests.swift */; };
 		3F5CF90919ECE4B500AF417B /* ElegantLux-Mager.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F5CF90819ECE4B500AF417B /* ElegantLux-Mager.otf */; };
+		3F933D671A0D606600D5EE01 /* GrandHotel-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 3F933D661A0D606600D5EE01 /* GrandHotel-Regular.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +39,7 @@
 		3F5CF8FD19ECE02600AF417B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F5CF8FE19ECE02600AF417B /* CommunityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommunityTests.swift; sourceTree = "<group>"; };
 		3F5CF90819ECE4B500AF417B /* ElegantLux-Mager.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "ElegantLux-Mager.otf"; sourceTree = "<group>"; };
+		3F933D661A0D606600D5EE01 /* GrandHotel-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "GrandHotel-Regular.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +120,7 @@
 		3F5CF90A19ECE55100AF417B /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
+				3F933D661A0D606600D5EE01 /* GrandHotel-Regular.otf */,
 				3F5CF90819ECE4B500AF417B /* ElegantLux-Mager.otf */,
 			);
 			name = Fonts;
@@ -207,6 +210,7 @@
 				3F5CF90919ECE4B500AF417B /* ElegantLux-Mager.otf in Resources */,
 				3F5CF8F319ECE02600AF417B /* LaunchScreen.xib in Resources */,
 				3F5CF8F019ECE02600AF417B /* Images.xcassets in Resources */,
+				3F933D671A0D606600D5EE01 /* GrandHotel-Regular.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -417,6 +421,7 @@
 				3F5CF90419ECE02600AF417B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3F5CF90519ECE02600AF417B /* Build configuration list for PBXNativeTarget "CommunityTests" */ = {
 			isa = XCConfigurationList;
@@ -425,6 +430,7 @@
 				3F5CF90719ECE02600AF417B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
